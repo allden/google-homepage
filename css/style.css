@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+
+nav a {
+    color: #666;
+    text-decoration: none;
+}
+
+.grid {
+    color: #888;
+}
+
+.grid:hover {
+    color: #222;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.left, .right {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+/* Utility */
+
+.btn a {
+    background-color: rgb(66, 133, 244);
+    padding: 0.7rem 1.4rem;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.btn a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn a:active {
+    background-color: rgb(44, 111, 233);
+}
+
+
+/* Section */
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.container {
+    position: relative;
+    top: -200px;
+}
+
+.container p {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    color: #444;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.container form + p {
+    color: rgb(66, 133, 244);
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 8rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.submit-buttons {
+    display: flex;
+}
+
+input {
+    width: 100%;
+    margin: 1rem;
+    border-radius: 0;
+    padding: 0.7rem 1.4rem;
+}
+
+input[type="text"] {
+    font-size: 1.3rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 0.2rem 0.4rem #ddd;
+    margin-bottom: 2rem;
+}
+input[type="text"]:hover {
+    box-shadow: 0 0.4rem 0.4rem #ddd;
+}
+input[type="submit"] {
+    border: 1px solid transparent;;
+    font-weight: 500;
+    background-color: #eee;
+    color: #777;
+    font-size: 1.3rem;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #ccc;
+    font-weight: 500;
+    color: #111;
+    border-radius: 2px;
+}
+
+/* logo colors */
+.d {
+    color: rgb(66, 133, 244);
+}
+
+.o, .e {
+    color: rgb(219,68,55);
+}
+
+.second-o {
+    color: rgb(244,160,0);
+}
+
+.l {
+    color: rgb(15,157,88);
+}
+
+/* Footer */
+footer {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    font-size: 1.3rem;
+    color: #666;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0 1rem;
+    padding: 1rem 0.5rem;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    font-size: 1.3rem;
+    border-top: 1px solid #ddd;
+}
+
+.footer ul li {
+    margin: 0 1rem;
+}
+
+.footer a {
+    color: #666;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.footer a:hover {
+    color: #888;
+    text-decoration: underline;
+}
